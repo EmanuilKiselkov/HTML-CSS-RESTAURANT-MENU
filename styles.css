@@ -1,0 +1,56 @@
+* {
+  color: white;
+  font-family: sans-serif;
+}
+ul {
+  list-style: none;
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+.whole-page {
+  width: 1035px;
+  height: 1600px;
+  background-image: linear-gradient(180deg, rgb(5, 5, 5), rgb(165, 165, 161));
+  padding: 50px;
+}
+
+.first-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  height: 235px;
+}
+
+.h2-text-left {
+  width: 173px;
+  height: 29px;
+  background-color: rgb(247, 101, 5);
+  border-radius: 12%;
+  color: black;
+  text-align: center;
+  padding: 8px;
+}
+
+
+.list-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.list-one{
+  padding:0px;
+}
+
+.img-bg-right{
+  background-color: rgb(247, 101, 5);
+  width: 512px;
+  height: 296px;
+  border-radius: 12%;
+}
+.img-chicken {
+  float: left;
+  border-radius: 50%;
+  height: 277px;
+  width: 272px;
+}
