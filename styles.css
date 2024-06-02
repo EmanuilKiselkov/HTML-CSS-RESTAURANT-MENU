@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 1062px;
+}
+
+.bg-black {
+  background-color: black;
+}
+.bg-orange{
+  background-color: rgb(211, 108, 24);
+}
+.bg-round{
+  border-radius: 50%;
+}
+.font {
+  font-family: sans-serif;
+}
+.font-white {
+  color: white;
+}
+.font-black{
+  color: black;
+}
+.h1-size {
+  font-size: 99px;
+}
+.h3-size {
+  font-size: 35px;
+}
+.ul-size{
+  font-size: 25px;
+}
+.pd-33 {
+  padding: 33px;
+}
+.pd-20 {
+  padding: 22px;
+}
+.text-center {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-areas: "col-1 col-2";
+}
+.display-block{
+  display: block;
+}
+.display-inline-block{
+  display: inline-block;
+}
+.display-flex{
+  display: flex;
+}
+.square{
+  width: 300px;
+  height: 300px;
+}
+.relative{
+  position: relative;
+}
+.space-between{
+  justify-content: space-between;
+}
